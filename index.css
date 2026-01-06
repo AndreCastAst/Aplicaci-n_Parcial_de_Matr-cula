@@ -1,0 +1,58 @@
+/* Estilos básicos para la presentación */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  display: flex;
+}
+
+/* Estilo del menú lateral */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  /* Altura completa de la ventana */
+  background-color: #2c3e50;
+  /* Color oscuro profesional */
+  color: white;
+  padding-top: 20px;
+}
+
+/* Estilo del título */
+.sidebar h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #34495e;
+  padding-bottom: 10px;
+}
+
+/* Estilo de la lista */
+.menu-list {
+  list-style-type: none;
+  /* Quita los puntos de la lista */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de los enlaces/botones */
+.menu-list li a {
+  display: block;
+  color: #ecf0f1;
+  padding: 15px 20px;
+  text-decoration: none;
+  /* Quita el subrayado */
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el mouse (Hover) */
+.menu-list li a:hover {
+  background-color: #34495e;
+  border-left-color: #3498db;
+  /* Borde azul al pasar el mouse */
+}
+
+/* Contenido principal (solo para visualización) */
+.content {
+  padding: 20px;
+}
